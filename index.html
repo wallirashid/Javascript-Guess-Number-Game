@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Number Generator Project</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1>Guess the number</h1>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="random-number-wrapper">
+					<form>
+						<div class="form-group">
+							<input type="number" value="" id="random-number-input" class="form-control" placeholder="Guess Number">
+						</div>
+						<div id="result"></div>
+						<div class="d-flex justify-content-center mb-3">
+							<button type="button" id="number-check" type="submit" class="btn btn-primary">Check Me</button>
+							<button type="button" id="number-reset" class="btn btn-secondary">Reset Game</button>
+						</div>
+						<!-- Number guess history-->
+						<div id="history"></div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>

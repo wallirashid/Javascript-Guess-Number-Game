@@ -1,0 +1,22 @@
+.wrapper{
+    overflow: hidden;
+}
+.header{
+    background-color: #3368c6;
+    overflow: hidden;
+}
+.header h1{
+    color:#fff;
+    padding:15px 5px;
+    font-size: 22px;
+}
+.random-number-wrapper{
+    margin-top: 20px;
+}
+.random-number-wrapper form,
+.random-number-wrapper ul{
+    margin-bottom: 20px;
+}
+.random-number-wrapper .btn-primary{
+    margin-right:15px;
+}
